@@ -1,0 +1,13 @@
+package com.demo.interviewdetailsservice;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class InterviewDetailsServiceApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
