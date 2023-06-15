@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Data
@@ -15,6 +16,7 @@ import javax.persistence.Table;
 @Table(name="interview")
 public class Interview {
     @Column(name = "id")
+    @Id
     private long id;
     @Column(name="interviewer_name")
     private String interviewerName;
