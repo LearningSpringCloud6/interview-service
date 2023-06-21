@@ -34,9 +34,9 @@ public class Feedback {
     @Column(name="final_verdict")
     private String finalVerdict;
     @Column(name="date")
-    private Date date;
+    private String date;
     @Column(name="time")
-    private Time time;
+    private String time;
     @Column(name="hr_name")
     private String hrName;
     @Column(name="code_snippets")
